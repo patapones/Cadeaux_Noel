@@ -27,13 +27,24 @@ const resultSumEachYear = console.log(
 
 resultSumEachYear;
 
+const AverageCostGifts =
+  (sumOneYear(year2020) + sumOneYear(year2021) + sumOneYear(year2022)) / 3;
+
+const resultCostGifts = console.log(
+  `La moyenne des coûts est de ${Math.round(AverageCostGifts)}`
+);
+
+resultCostGifts;
+
+/*
 const averageSum =
   sumOneYear(year2020) / (year2020.length * 1) +
   sumOneYear(year2021) / (year2021.length * 1) +
   sumOneYear(year2022) / (year2022.length * 1);
 
 const totalAverage = console.log(
-  `La moyenne des coût est de ${Math.round(averageSum)}`
+  `La moyenne du coût d'un cadeau est de ${Math.round(averageSum)}`
 );
 
 totalAverage;
+*/
